@@ -22,27 +22,35 @@ subscription based access.
 ## 📸 Screenshots
 
 ### Homepage – Hero Section
+
 ![Hero](screenshots/home-hero.PNG)
 
 ### AI Tools Section
+
 ![Tools](screenshots/home-tools.PNG)
 
 ### Pricing Plans
+
 ![Pricing](screenshots/home-pricing.PNG)
 
 ### Dashboard
+
 ![Dashboard](screenshots/dashboard.PNG)
 
 ### Article Generator
+
 ![Article](screenshots/article-generator.PNG)
 
 ### Image Generator
+
 ![Image](screenshots/image-generator.PNG)
 
 ### Resume Analyzer
+
 ![Resume](screenshots/resume-analyzer.PNG)
 
 ### Community Page
+
 ![Community](screenshots/community.PNG)
 
 ## ✨ Key Features
