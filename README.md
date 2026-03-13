@@ -1,31 +1,76 @@
-# How to Setup & Run this Project
+# 🤖 AI SaaS Platform
 
-## 🛠️ Prerequisites
+A full‑stack AI powered SaaS platform providing multiple AI tools
+including article generation, image creation, and resume analysis with
+subscription based access.
 
-### ❖ Install Node.js (Skip if already installed)
-1. Visit the official Node.js website.
-2. Download the Node.js installer.
-3. Run the installer and follow the setup instructions.
+## 🚀 Tech Stack
 
-> **Note**: Always start the **Server** before running the **Client**.
+-   React.js
+-   Node.js
+-   Express.js
+-   PostgreSQL (NeonDB)
+-   Tailwind CSS
+-   Clerk Authentication
+-   Stripe Billing
+-   Vercel
 
----
+## ✨ Key Features
 
-## ⚙️ Server Setup
+-   Secure authentication with Clerk
+-   AI tools including:
+    -   Article generator
+    -   Blog title generator
+    -   Image generator
+    -   Resume analyzer
+-   Subscription management with Stripe
+-   Free and premium feature access
+-   Public image community where users can explore AI generated images
+-   Responsive UI with Tailwind CSS
 
-1. Open the project folder in **VS Code**.
-2. Setup **Neon** (PostgreSQL hosting).
-3. Create the required database table using the Neon SQL Editor with the following query:
+## 🌐 Live Demo
 
-```sql
-CREATE TABLE creations (
-  id SERIAL PRIMARY KEY,
-  user_id TEXT NOT NULL,
-  prompt TEXT NOT NULL,
-  content TEXT NOT NULL,
-  type TEXT NOT NULL,
-  publish BOOLEAN DEFAULT FALSE,
-  likes TEXT[] DEFAULT '{}',
-  created_at TIMESTAMPTZ DEFAULT NOW(),
-  updated_at TIMESTAMPTZ DEFAULT NOW()
-);
+Add your deployed link here
+
+## 📸 Screenshots
+
+Add screenshots of: - AI tools dashboard - Image generator - Generated
+content page
+
+------------------------------------------------------------------------
+
+# ⚙️ Project Setup
+
+## Prerequisites
+
+Install Node.js and create a PostgreSQL database on NeonDB.
+
+## Database Setup
+
+Create table:
+
+    CREATE TABLE creations (
+    id SERIAL PRIMARY KEY,
+    user_id TEXT NOT NULL,
+    prompt TEXT NOT NULL,
+    content TEXT NOT NULL,
+    type TEXT NOT NULL,
+    publish BOOLEAN DEFAULT FALSE,
+    likes TEXT[] DEFAULT '{}',
+    created_at TIMESTAMPTZ DEFAULT NOW(),
+    updated_at TIMESTAMPTZ DEFAULT NOW()
+    );
+
+## Run Project
+
+Install dependencies
+
+    npm install
+
+Run server
+
+    npm run dev
+
+## Author
+
+Ram Pravesh Singh
